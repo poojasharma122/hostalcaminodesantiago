@@ -978,3 +978,27 @@ display: none;
     padding: 1.25rem 0;
 }
 /* Home What We Offer CSS End */
+
+/* Home Why Us CSS Start */
+.home_why_wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.home_why_us_icon_outer {
+    height: 5rem;
+    width: 5rem;
+}
+.home_why_us_icon {
+    height: 100%;
+    width: 100%;
+}
+.home_why_us_content {
+    padding: 1rem 0;
+}
+.home_why_us_content h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 1.4;
+}
+/*Home Why Us CSS End*/
