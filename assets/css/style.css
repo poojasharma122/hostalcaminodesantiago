@@ -440,9 +440,10 @@ span.theme {
     transition: all 0.3s ease-out;
 }
 
-.sticky-header.fixed_header .navigation-menu ul li a::after {
-    background-color: #D89E27;
+.navigation-menu ul li a.active{
+    color: #D89E27;
 }
+
 
 .navigation-menu ul li a.active::after {
     transform: scaleX(0.9);
