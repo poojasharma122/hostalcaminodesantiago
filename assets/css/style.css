@@ -259,7 +259,9 @@ span.theme {
 .bg_dark {
     background-color: #060606;
 }
-
+.bg_theme {
+    background-color: #d89e27;
+}
 .bg_light {
     background-color: #f5f5f7;
 }
@@ -1108,14 +1110,14 @@ span.theme {
     border: 1px solid #000;
     background-color: #060606;
 }
-.newsletter_btn {
+.newsletter_btn ,.newsletter_btm_btn ,.hotels_last_sec .text_img_btn{
     color: #060606;
     border-color: #060606;
 }
-.newsletter_btn:hover{
+.newsletter_btn:hover ,.newsletter_btm_btn:hover ,.hotels_last_sec .text_img_btn:hover {
     color: #d89e27;
 }
-.newsletter_btn::after {
+.newsletter_btn::after ,.newsletter_btm_btn::after ,.hotels_last_sec .text_img_btn::after {
     background: #060606;
 }
 /* News Letter CSS End */
@@ -1146,8 +1148,8 @@ span.theme {
 }
 
 .links_footr ul li a {
-    color: #fff;
-    font-size: 1rem;
+    color: #6d6c6c;
+    font-size: 1.5rem;
     margin-bottom: 0.625rem;
     transition: 0.3s all ease-in-out;
 }
@@ -1158,8 +1160,8 @@ span.theme {
 }
 
 .footer_email {
-    color: #fff;
-    font-size: 1rem;
+    color: #6d6c6c;
+    font-size: 1.3rem;
     display: inline-block;
     margin-bottom: 0.9375rem;
 }
@@ -1187,13 +1189,13 @@ span.theme {
     transform: translateY(-5px);
 }
 .social-links a svg {
-    fill: #000;
+    fill: #fff;
     height: 100%;
     width: 100%;
 }
 
 .bottom_strip {
-    border-top: 1px solid #D89E27;
+    border-top: 1px solid #fff;
 }
 
 .copy_txt p {
@@ -1217,6 +1219,19 @@ span.theme {
     width: 12.5rem;
     background-image: url(../images/ssl.png);
 }
+
+.footer_links_col {
+    background: #fff;
+}
+.links_footr h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.footer_logo h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
 /* Footer CSS End*/
 
 /* Other Pages CSS Start */
@@ -1228,3 +1243,4 @@ span.theme {
 }
 
 /* Other Pages CSS End */
+

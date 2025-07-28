@@ -69,7 +69,12 @@
         font-size: 14px;
     }
 
-
+    .ssl_certi {
+        justify-content: center;
+    }
+    .copy_txt p {
+        text-align: center;
+    }
 
 }
 
