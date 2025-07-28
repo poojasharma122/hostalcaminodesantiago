@@ -1218,3 +1218,13 @@ span.theme {
     background-image: url(../images/ssl.png);
 }
 /* Footer CSS End*/
+
+/* Other Pages CSS Start */
+.banner.sub_banner {
+    height: 35rem;
+}
+.banner.sub_banner .banner_content h1 {
+    font-size: 2.5rem;
+}
+
+/* Other Pages CSS End */
