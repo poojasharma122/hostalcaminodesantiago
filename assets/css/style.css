@@ -1124,6 +1124,9 @@ span.theme {
 
 
 /* Footer CSS Start */
+.site_footer {
+    border-top: 1px solid #060606;
+}
 .footer_logo a {
     background-size: contain;
     background-repeat: no-repeat;
@@ -1235,12 +1238,43 @@ span.theme {
 /* Footer CSS End*/
 
 /* Other Pages CSS Start */
+.hotel_cards {
+    margin-bottom: 5rem;
+}
 .banner.sub_banner {
     height: 35rem;
 }
 .banner.sub_banner .banner_content h1 {
     font-size: 2.5rem;
 }
-
+.hotel_cards_img_outer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1.875rem;
+}
+.hotel_cards_img {
+    height: 100%;
+    width: 100%;
+}
+.hotel_location {
+    padding: 0.625rem;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 1.875rem;
+}
+.hotel_services {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+}
+.hotel_services span {
+    padding: 0.625rem;
+    background:#fff;
+    line-height: 1;
+    text-align: center;
+    border-radius: 1.875rem;
+}
 /* Other Pages CSS End */
 
