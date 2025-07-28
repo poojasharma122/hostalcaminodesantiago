@@ -562,9 +562,10 @@ span.theme {
 .after_banner_img {
     height: 100%;
     width: 100%;
-
+    border-radius: 1.875rem;
 }
-.common_overlay{
+
+.common_overlay {
     position: relative;
     overflow: hidden;
 }
@@ -637,6 +638,7 @@ span.theme {
 .featured_slider_image {
     height: 600px;
     width: 100%;
+    border-radius: 1.875rem;
 }
 
 .featured_slider .slider-nav .slick-slide.thumbnail-image .thumbImg {
@@ -644,6 +646,7 @@ span.theme {
     height: 110px;
     margin: 0 auto;
     border: 1px solid #EBEBEB;
+    border-radius: 1.875rem;
 }
 
 
@@ -677,7 +680,7 @@ span.theme {
 }
 
 .featured_slider .slick-arrow {
-display: none;
+    display: none;
 }
 
 .slick-prev {
@@ -827,6 +830,7 @@ display: none;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.35s ease;
+    border-radius: 1.875rem;
 }
 
 .home_loc_card::before,
@@ -883,61 +887,70 @@ display: none;
 
 
 /* Home What We Offer CSS Start */
-.home_what_we_offer_card{
+.home_what_we_offer_card {
     position: relative;
     height: 100%;
     overflow: hidden;
     transition: 0.1s all linear;
-  }
-  .home_what_we_offer_card:hover{
+}
+
+.home_what_we_offer_card:hover {
     transform: translateY(-3px);
-  }
-  .home_what_we_offer_card::before{
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:0;
-    width:100%;
-    height:1px;
-    background:#fff;
+}
+
+.home_what_we_offer_card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
     border-radius: 1.875rem;
-  }
-  .home_what_we_offer_card::after{
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:0;
-    width:100%;
-    height:1px;
-    background:#d89e27;
-    transform:scaleX(0);
-    transform-origin:left;       
-    transition:transform .5s ease;
+}
+
+.home_what_we_offer_card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #d89e27;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s ease;
     border-radius: 1.875rem;
-  }
-  
-  .home_what_we_offer_card:hover::after{
-    transform:scaleX(1);
-  }
+}
+
+.home_what_we_offer_card:hover::after {
+    transform: scaleX(1);
+}
+
 .what_we_offer_img_outer {
     height: 350px;
     width: 100%;
     position: relative;
     overflow: hidden;
+    border-radius: 1.875rem;
 }
+
 .what_we_offer_content h5 {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.4;
 }
-.home_what_we_offer_card:hover  .what_we_offer_content h5 {
+
+.home_what_we_offer_card:hover .what_we_offer_content h5 {
     color: #D89E27;
 }
+
 .what_we_offer_img {
     height: 100%;
     width: 100%;
 }
+
 .common_overlay_second .box {
     position: absolute;
     width: 50%;
@@ -945,38 +958,41 @@ display: none;
     background: rgba(216, 158, 39, 0.3);
     transition: transform 0.4s ease;
     z-index: 2;
-  }
-  
-  .common_overlay_second .box1 {
+}
+
+.common_overlay_second .box1 {
     top: 0;
     left: 0;
     transform: translate(-100%, -100%);
-  }
-    .common_overlay_second .box2 {
+}
+
+.common_overlay_second .box2 {
     top: 0;
     right: 0;
     transform: translate(100%, -100%);
-  }
-  
+}
 
-  .common_overlay_second .box3 {
+
+.common_overlay_second .box3 {
     bottom: 0;
     left: 0;
     transform: translate(-100%, 100%);
-  }
-  
-  .common_overlay_second .box4 {
+}
+
+.common_overlay_second .box4 {
     bottom: 0;
     right: 0;
     transform: translate(100%, 100%);
-  }
-  
-  .common_overlay_second:hover .box {
+}
+
+.common_overlay_second:hover .box {
     transform: translate(0, 0);
-  }
-  .what_we_offer_content {
+}
+
+.what_we_offer_content {
     padding: 1.25rem 0;
 }
+
 /* Home What We Offer CSS End */
 
 /* Home Why Us CSS Start */
@@ -984,21 +1000,220 @@ display: none;
     max-width: 1100px;
     margin: 0 auto;
 }
+
 .home_why_us_icon_outer {
     height: 5rem;
     width: 5rem;
 }
+
 .home_why_us_icon {
     height: 100%;
     width: 100%;
 }
+
 .home_why_us_content {
     padding: 1rem 0;
 }
+
 .home_why_us_content h5 {
     font-size: 1.2rem;
     font-weight: 500;
     font-family: "Inter", sans-serif;
     line-height: 1.4;
 }
+
 /*Home Why Us CSS End*/
+
+/* Blog Links CSS Start */
+.blog_link_card {
+    display: block;
+    border: 3px solid #D89E27;
+    border-radius: 1.875rem;
+    height: 100%;
+    transition: 0.1s all linear;
+}
+
+.blog_link_card:hover {
+    transform: translateY(-3px);
+}
+
+.blog_link_img_outer {
+    position: relative;
+    height: 25em;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 1.875rem 1.875rem 0 0;
+}
+
+.blog_link_img {
+    height: 100%;
+    width: 100%;
+}
+
+.blog_links_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog_link_content {
+    padding: 1.25rem;
+}
+
+.blog_link_content p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #d89e27;
+}
+
+/* Blog Links CSS End */
+
+/* News Letter CSS Start */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 40.625rem;
+    gap: 1rem;
+}
+
+.be_bestt {
+    width: 100%;
+}
+
+.be_best {
+    width: 100%;
+}
+
+.form-row input {
+    color: #D89E27 !important;
+    background-color: #060606;
+    border: 1px solid #000;
+    outline: none;
+    margin: 0;
+    padding: 14px 20px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.form-row input::placeholder {
+    color: #D89E27;
+}
+
+.form-row input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #000;
+    background-color: #060606;
+}
+.newsletter_btn {
+    color: #060606;
+    border-color: #060606;
+}
+.newsletter_btn:hover{
+    color: #d89e27;
+}
+.newsletter_btn::after {
+    background: #060606;
+}
+/* News Letter CSS End */
+
+
+/* Footer CSS Start */
+.footer_logo a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 6rem;
+    width: 14rem;
+    background-image: url(../images/logo.svg);
+}
+.footr_blcks h3 {
+    color: #D89E27;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.25rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.disclaimer p {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.links_footr ul li a {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    transition: 0.3s all ease-in-out;
+}
+
+.links_footr ul li a:hover {
+    color: #D89E27;
+    transform: translateX(3px);
+}
+
+.footer_email {
+    color: #fff;
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 0.9375rem;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    margin-right: 5px;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D89E27;
+    border-radius: 5px;
+    transition: 0.2s all ease-in-out;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+}
+.social-links a svg {
+    fill: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom_strip {
+    border-top: 1px solid #D89E27;
+}
+
+.copy_txt p {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.ssl_certi {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0.625rem 0;
+}
+
+.ssl_certi_inner {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.75rem;
+    width: 12.5rem;
+    background-image: url(../images/ssl.png);
+}
+/* Footer CSS End*/
