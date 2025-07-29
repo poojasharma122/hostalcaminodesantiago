@@ -34,7 +34,7 @@ h6 {
     margin: 0;
     line-height: 1;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 p {
@@ -1276,5 +1276,43 @@ span.theme {
     text-align: center;
     border-radius: 1.875rem;
 }
+.hotel_cards_img_content h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
 /* Other Pages CSS End */
+
+/* Image Text Section Start */
+
+.img_part {
+    height: 100%;
+    width: 100%;
+}
+
+.text_part {
+    padding: 5rem 1.875rem;
+}
+
+.text_part h3 {
+font-size: 2rem;
+font-weight: 400;
+}
+
+.text_part p {
+    font-size: 1rem;
+}
+
+
+.home_explore_wrap .row .col-lg-7 {
+    padding: 0;
+}
+.img_part_outer {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 1.875rem;
+}
+
+/* Image Text Section End */
 
