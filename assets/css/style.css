@@ -1390,3 +1390,37 @@ font-weight: 400;
 
 /* Blog Description Pages CSS End*/
 
+/* About Page CSS Start */
+.about_card {
+    background: #060606;
+    border-radius: 1.875rem;
+    padding: 1.25rem;
+    height: 100%;
+}
+.about_card_img_outer {
+    height: 20rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1.975rem;
+}
+.about_card_img {
+    height: 100%;
+    width: 100%;
+}
+.about_last_heading {
+    padding: 1.25rem;
+    background: #060606;
+    border-radius: 7.875rem;
+}
+.about_card_content {
+    padding: 1.25rem 0;
+}
+/* About Page CSS End */
+
+/* Contact Page CSS Start */
+.after_banner_content ul li {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+}
+
+/* Contact Page CSS End */
