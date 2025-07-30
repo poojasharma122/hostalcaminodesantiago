@@ -1340,3 +1340,53 @@ font-weight: 400;
 }
 /* Blog Page CSS End */
 
+/* Blog Description Pages CSS Start */
+
+.blog_desc_img {
+    height: 31.25rem;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1.875rem;
+    position: relative;
+    border:3px solid #D89E27;
+}
+
+.blog_desc {
+    padding: 2.5rem 1.875rem;
+    border-radius: 20px;
+    box-shadow: #191919 0px 3px 8px;
+    background: #111111;
+}
+
+.blog_desc p {
+    color: #313131;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.blog_desc ul li {
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+.blog_desc li::marker {
+    color: #D89E27;
+}
+
+.blog_desc ul li p {
+    line-height: 1;
+}
+
+.blog_desc h3 {
+    font-size: 1.5rem;
+    color: #D89E27;
+}
+
+.blog_desc h2 {
+    font-size: 2rem;
+    color: #D89E27;
+}
+
+/* Blog Description Pages CSS End*/
+
