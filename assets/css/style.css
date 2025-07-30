@@ -546,9 +546,9 @@ span.theme {
 
 .home_after_bnr_images {
     position: relative;
-    height: 500px;
+    height: 31.25erm;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     overflow: hidden;
 }
 
@@ -604,13 +604,13 @@ span.theme {
 /* Home After Banner CSS End */
 
 .vehicle-detail-banner .car-slider-desc {
-    max-width: 180px;
+    max-width:11.25rem;
     margin: 0 auto;
 }
 
 .featured_slider .slider.slider-for {
     max-width: 84%;
-    padding-right: 35px;
+    padding-right: 2.1875rem;
 }
 
 .featured_slider .slider.slider-nav {
@@ -624,7 +624,7 @@ span.theme {
 }
 
 .featured_slider .slider.slider-nav {
-    height: 620px;
+    height: 38.75rem;
     overflow: hidden;
 }
 
@@ -639,14 +639,14 @@ span.theme {
 }
 
 .featured_slider_image {
-    height: 600px;
+    height: 37.5rem;
     width: 100%;
     border-radius: 1.875rem;
 }
 
 .featured_slider .slider-nav .slick-slide.thumbnail-image .thumbImg {
-    max-width: 190px;
-    height: 110px;
+    max-width: 11.875rem;
+    height: 6.875rem;
     margin: 0 auto;
     border: 1px solid #EBEBEB;
     border-radius: 1.875rem;
@@ -674,9 +674,9 @@ span.theme {
 }
 
 .featured_slider .slider-nav .slick-slide span {
-    font-size: 15px;
+    font-size: 1.9375rem;
     display: block;
-    padding: 5px 0 15px;
+    padding: 0.3125rem 0 0.9375rem;
     font-weight: 500;
     color: #fff;
     letter-spacing: 0.5px;
@@ -730,17 +730,17 @@ span.theme {
     }
 
     .slider.slider-nav.thumb-image {
-        padding-top: 30px;
+        padding-top: 1.875rem;
     }
 
     .slider-nav .slick-slide span {
-        padding: 5px 0;
+        padding: 0.3125rem 0;
     }
 
     .slick-arrow {
         padding: 0;
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
         top: 50%;
         bottom: 0;
         -webkit-transform: translateY(-50%) rotate(-90deg);
@@ -761,11 +761,11 @@ span.theme {
     }
 
     .vehicle-detail-banner .car-slider-desc {
-        max-width: 340px;
+        max-width: 21.25rem;
     }
 
     .bid-tag {
-        padding: 10px 0 15px;
+        padding: 0.625rem 0 0.9375rem;
     }
 
     .slider.slider-nav.thumb-image {
@@ -773,8 +773,8 @@ span.theme {
     }
 
     .thumbnail-image.slick-slide {
-        padding: 0px 5px;
-        min-width: 75px;
+        padding: 0 0.3125rem;
+        min-width: 4.6875rem;
         display: inline-block;
         float: none;
     }
@@ -782,13 +782,13 @@ span.theme {
 
 @media screen and (max-width : 767px) {
     .slider.slider-nav.thumb-image {
-        padding: 0px 20px 0;
-        margin: 10px 0px 0;
+        padding: 0 1.25rem 0;
+        margin: 0.625rem 0 0;
     }
 
     .slider-nav .slick-slide.thumbnail-image .thumbImg {
-        max-width: 140px;
-        height: 80px;
+        max-width: 8.75rem;
+        height: 5rem;
     }
 
     .slick-prev.slick-arrow {
@@ -800,7 +800,7 @@ span.theme {
     }
 
     .slider-nav .slick-slide span {
-        font-size: 12px;
+        font-size: 0.75rem;
         white-space: normal;
     }
 }
@@ -827,7 +827,7 @@ span.theme {
 
 .home_loc_card {
     position: relative;
-    height: 25rem;
+    height: 15.625rem;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -931,7 +931,7 @@ span.theme {
 }
 
 .what_we_offer_img_outer {
-    height: 350px;
+    height: 21.875rem;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -1042,7 +1042,7 @@ span.theme {
 
 .blog_link_img_outer {
     position: relative;
-    height: 25em;
+    height: 15.625rem;
     overflow: hidden;
     width: 100%;
     border-radius: 1.875rem 1.875rem 0 0;
@@ -1093,9 +1093,9 @@ span.theme {
     border: 1px solid #000;
     outline: none;
     margin: 0;
-    padding: 14px 20px;
-    border-radius: 30px;
-    font-size: 1.1rem;
+    padding: 0.875rem 1.25rem;
+    border-radius: 1.875rem;
+    font-size: 0.6875rem;
     line-height: 1;
     font-weight: 500;
 }
@@ -1131,15 +1131,15 @@ span.theme {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 6rem;
-    width: 14rem;
+    height: 3.75rem;
+    width: 8.75rem;
     background-image: url(../images/logo.svg);
 }
-.footr_blcks h3 {
+.footr_blcks h3 {   
     color: #D89E27;
-    font-size: 1.7rem;
-    line-height: 1.5rem;
-    padding-bottom: 1.25rem;
+    font-size: 1.0625rem;
+    line-height: 0.9375rem;
+    padding-bottom: 0.78125rem;
     letter-spacing: 1px;
     text-transform: capitalize;
     font-weight: 400;
@@ -1175,16 +1175,16 @@ span.theme {
 }
 
 .social-links a {
-    margin-right: 5px;
+    margin-right: 0.3125rem;
     height: 2.5rem;
     width: 2.5rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: #D89E27;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     transition: 0.2s all ease-in-out;
-    padding: 10px;
+    padding: 0.625rem;
     border-radius: 50%;
 }
 
