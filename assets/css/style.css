@@ -1267,7 +1267,7 @@ span.theme {
 .hotel_services {
     display: grid;
     grid-template-columns: repeat(4,auto);
-    gap: 10px;
+    gap: 0.9375rem;
 }
 .hotel_services span {
     padding: 0.625rem;
@@ -1314,5 +1314,29 @@ font-weight: 400;
     border-radius: 1.875rem;
 }
 
+
 /* Image Text Section End */
+
+/* Blog Page CSS Start */
+.blog_page_card{
+    display: block;
+}
+.blog_page_cards_sec .row {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.blog_page_card .what_we_offer_content h5 {
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
+}
+.home_what_we_offer_card.blog_page_card::before {
+        background: #000;
+}
+
+.blog_page_card .what_we_offer_img_outer {
+    height: 25rem;
+}
+/* Blog Page CSS End */
 
