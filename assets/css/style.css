@@ -546,7 +546,7 @@ span.theme {
 
 .home_after_bnr_images {
     position: relative;
-    height: 31.25erm;
+    height: 31.25rem;
     display: flex;
     gap: 1.25rem;
     overflow: hidden;
@@ -1125,7 +1125,7 @@ span.theme {
 
 /* Footer CSS Start */
 .site_footer {
-    border-top: 1px solid #060606;
+    border-top: 2px solid #060606;
 }
 .footer_logo a {
     background-size: contain;
@@ -1424,3 +1424,71 @@ font-weight: 400;
 }
 
 /* Contact Page CSS End */
+
+
+/* Footer Pages CSS Start*/
+.footer-pages-wrap {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    padding: 3.125rem 1.875rem;
+    border-radius: 20px;
+    margin-top: -5rem;
+    position: relative;
+    background-color: #111111;
+    z-index: 99;
+}
+
+.footer-pages-content-grp {
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
+}
+
+.footer-pages-content-grp:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-pages-content-grp h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.9375rem;
+    color: #D89E27;
+    line-height: 1.4;
+}
+
+.footer-pages-content-grp strong {
+    font-size: 1.125rem;
+}
+
+.footer-pages-content-grp p {
+    font-size: 1.0625rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-pages-content-grp ul {
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.footer-pages-content-grp ul li {
+    list-style-type: disc;
+}
+
+.footer-pages-content-grp ul li::marker {
+    color: #D89E27;
+}
+
+.footer-pages-content-grp p a {
+    color: #fff;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+    text-underline-offset: 4px;
+    font-weight: 600;
+}
+
+.footer-pages-content-grp p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Pages CSS End*/
