@@ -674,7 +674,7 @@ span.theme {
 }
 
 .featured_slider .slider-nav .slick-slide span {
-    font-size: 1.9375rem;
+    font-size: 0.9375rem;
     display: block;
     padding: 0.3125rem 0 0.9375rem;
     font-weight: 500;
@@ -713,97 +713,8 @@ span.theme {
     font-weight: 400;
 }
 
-@media screen and (max-width : 991px) {
 
-    .featured_slider .slider.slider-for,
-    .featured_slider .slider.slider-nav {
-        max-width: 100%;
-        float: none;
-    }
 
-    .featured_slider .slider.slider-for {
-        padding-right: 0;
-    }
-
-    .featured_slider .slider.slider-nav {
-        height: auto;
-    }
-
-    .slider.slider-nav.thumb-image {
-        padding-top: 1.875rem;
-    }
-
-    .slider-nav .slick-slide span {
-        padding: 0.3125rem 0;
-    }
-
-    .slick-arrow {
-        padding: 0;
-        width: 1.875rem;
-        height: 1.875rem;
-        top: 50%;
-        bottom: 0;
-        -webkit-transform: translateY(-50%) rotate(-90deg);
-        -moz-transform: translateY(-50%) rotate(-90deg);
-        -ms-transform: translateY(-50%) rotate(-90deg);
-        transform: translateY(-50%) rotate(-90deg);
-    }
-
-    .slick-prev {
-        left: 0;
-        right: unset;
-    }
-
-    .slick-next {
-        left: unset;
-        right: 0;
-        background-color: transparent;
-    }
-
-    .vehicle-detail-banner .car-slider-desc {
-        max-width: 21.25rem;
-    }
-
-    .bid-tag {
-        padding: 0.625rem 0 0.9375rem;
-    }
-
-    .slider.slider-nav.thumb-image {
-        white-space: nowrap;
-    }
-
-    .thumbnail-image.slick-slide {
-        padding: 0 0.3125rem;
-        min-width: 4.6875rem;
-        display: inline-block;
-        float: none;
-    }
-}
-
-@media screen and (max-width : 767px) {
-    .slider.slider-nav.thumb-image {
-        padding: 0 1.25rem 0;
-        margin: 0.625rem 0 0;
-    }
-
-    .slider-nav .slick-slide.thumbnail-image .thumbImg {
-        max-width: 8.75rem;
-        height: 5rem;
-    }
-
-    .slick-prev.slick-arrow {
-        background-position: center 10px;
-    }
-
-    .slick-next.slick-arrow {
-        background-position: center 10px, center;
-    }
-
-    .slider-nav .slick-slide span {
-        font-size: 0.75rem;
-        white-space: normal;
-    }
-}
 
 
 
@@ -813,17 +724,6 @@ span.theme {
     gap: 2rem;
 }
 
-@media (max-width: 1024px) {
-    .home_locations_grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 640px) {
-    .home_locations_grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 .home_loc_card {
     position: relative;
