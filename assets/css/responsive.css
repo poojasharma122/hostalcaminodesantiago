@@ -110,6 +110,9 @@
         display: inline-block;
         float: none;
     }
+    .img_part_outer {
+        height: 25rem;
+    }
 
 }
 
@@ -160,6 +163,9 @@
     .slick-track {
         display: flex;
         gap: 0.625rem;
+    }
+    .text_part {
+        padding: 3rem 0.625rem;
     }
 }
 
@@ -218,6 +224,12 @@
     }
     .hotel_cards_img_content h3 {
         font-size: 1.9rem;
+    }
+    .img_part_outer {
+        height: 20rem;
+    }
+    .text_part {
+        padding: 2rem 0.625rem;
     }
 }
 
@@ -281,5 +293,8 @@
     }
     .hotel_cards_img_content h3 {
         font-size: 1.7rem;
+    }
+    .img_part_outer {
+        height: 17rem;
     }
 }
