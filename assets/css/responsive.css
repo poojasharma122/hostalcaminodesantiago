@@ -10,8 +10,8 @@
         height: 100%;
         width: 100%;
         padding: 50px;
-        background-color: #432818;
-        transform: translateX(100%);
+        background-color: #060606;
+        transform: translateY(100%);
         transition: all 0.3s linear;
         z-index: 100;
         color: #fff;
@@ -21,7 +21,7 @@
     }
 
     .menuToggle .navigation-menu {
-        transform: translateX(0);
+        transform: translateY(0);
         justify-content: flex-start;
     }
 
@@ -92,21 +92,6 @@
         padding: 0.3125rem 0;
     }
 
-    .slick-arrow {
-        display: none;
-    }
-
-    .slick-prev {
-        left: 0;
-        right: unset;
-    }
-
-    .slick-next {
-        left: unset;
-        right: 0;
-        background-color: transparent;
-    }
-
     .vehicle-detail-banner .car-slider-desc {
         max-width: 21.25rem;
     }
@@ -150,7 +135,7 @@
     }
     .slider.slider-nav.thumb-image {
         padding: 0 1.25rem 0;
-        margin: 0.625rem 0 0;
+        margin: 2.625rem 0 0;
     }
 
     .slider-nav .slick-slide.thumbnail-image .thumbImg {
@@ -164,6 +149,17 @@
     }
     .section_heading {
         font-size: 2.5rem;
+        line-height: 1.4;
+    }
+    .py-7 {
+        padding: 3.375rem 0;
+    }
+    .links_footr ul li a {
+        font-size: 1.4rem;
+    }
+    .slick-track {
+        display: flex;
+        gap: 0.625rem;
     }
 }
 
@@ -195,7 +191,34 @@
     .section_heading {
         font-size: 2.2rem;
     }
-
+    .py-7 {
+        padding: 2.375rem 0;
+    }
+    .menu-toggle-btn {
+        height: 2rem;
+        width: 2rem;
+    }
+    .brand-container a, .footer-logo a {
+        width: 11.75rem;
+    }
+    .featured_slider_image {
+        height: 20.5rem;
+    }
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    .banner.sub_banner .banner_content h1 {
+        font-size: 2rem;
+    }
+    .banner.sub_banner {
+        height: 32rem;
+    }
+    .hotel_services {
+        grid-template-columns: repeat(3,auto);
+    }
+    .hotel_cards_img_content h3 {
+        font-size: 1.9rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -218,6 +241,45 @@
     }
 
     .section_heading {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
+    }
+    .home_why_us_content h5 {
+        font-size: 1.1rem;
+    }
+    .links_footr ul li a {
+        font-size: 1.3rem;
+    }
+    .links_footr h4 {
+        font-size: 1.5rem;
+    }
+    .what_we_offer_img_outer {
+        height: 17.875rem;
+    }
+    .home_why_us_icon_outer {
+        margin: 0 auto;
+    }
+    .home_why_us_content {
+        text-align: center;
+    }
+    .butn {
+        font-size: 1rem;
+    }
+    .form-row input {
+        font-size: 1rem;
+    }
+    .blog_link_content p {
+        font-size: 1.1rem;
+    }
+    .slider-banner-content h3 {
+        font-size: 1.6rem;
+    }
+    .banner.sub_banner {
+        height: 28rem;
+    }
+    .hotel_services {
+        grid-template-columns: repeat(2,auto);
+    }
+    .hotel_cards_img_content h3 {
+        font-size: 1.7rem;
     }
 }
