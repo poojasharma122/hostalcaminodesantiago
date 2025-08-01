@@ -252,6 +252,9 @@
     .blog_desc_img {
         height: 22.25rem;
     }
+    .footer-pages-wrap {
+        padding: 3.125rem 1.25rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -347,5 +350,8 @@
     }
     .mb-5 {
         margin-bottom: 2rem !important;
+    }
+    .footer-pages-content-grp p {
+        font-size: 1rem;
     }
 }
