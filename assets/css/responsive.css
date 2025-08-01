@@ -113,6 +113,10 @@
     .img_part_outer {
         height: 25rem;
     }
+    .hotel_cards_img_outer {
+        height: 25rem;
+        margin-bottom: 1.875rem;
+    }
 
 }
 
@@ -167,6 +171,9 @@
     .text_part {
         padding: 3rem 0.625rem;
     }
+    .hotel_cards_img_outer {
+        height: 20rem;
+    }
 }
 
 
@@ -190,12 +197,14 @@
 
     .home_after_banner h2 {
         font-size: 2rem;
+        font-weight: 600;
     }
     .home_locations_grid {
         grid-template-columns: 1fr;
     }
     .section_heading {
         font-size: 2.2rem;
+        font-weight: 600;
     }
     .py-7 {
         padding: 2.375rem 0;
@@ -231,6 +240,9 @@
     .text_part {
         padding: 2rem 0.625rem;
     }
+    .blog_page_card .what_we_offer_img_outer {
+        height: 23rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -250,6 +262,7 @@
 
     .home_after_banner h2 {
         font-size: 1.8rem;
+        font-weight: 600;
     }
 
     .section_heading {
@@ -296,5 +309,24 @@
     }
     .img_part_outer {
         height: 17rem;
+    }
+    .home_why_us_icon_outer {
+        height: 4rem;
+        width: 4rem;
+    }
+    .hotel_cards_img_outer {
+        height: 16rem;
+    }
+    .p-4 {
+        padding: 1rem!important;
+    }
+    .banner.sub_banner .banner_content h1 {
+        font-size: 1.7rem;
+    }
+    .blog_page_card .what_we_offer_img_outer {
+        height: 20rem;
+    }
+    .blog_page_card .what_we_offer_content h5 {
+        font-size: 1.1rem;
     }
 }
