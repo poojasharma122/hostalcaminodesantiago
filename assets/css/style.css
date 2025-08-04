@@ -1248,7 +1248,9 @@ font-weight: 400;
 /* Blog Page CSS End */
 
 /* Blog Description Pages CSS Start */
-
+.blog_desc strong{
+    color: #D89E27;
+}
 .blog_desc_img {
     height: 31.25rem;
     width: 100%;
