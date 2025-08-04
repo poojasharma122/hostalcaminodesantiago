@@ -45,6 +45,9 @@
         height: 2rem;
         width: 2rem;
     }
+    .featured_slider .slider.slider-nav {
+        height: 43.75rem;
+    }
 }
 
 
@@ -59,6 +62,7 @@
     .home_locations_grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media (max-width: 991px) {
@@ -116,6 +120,12 @@
     .hotel_cards_img_outer {
         height: 25rem;
         margin-bottom: 1.875rem;
+    }
+    .p-md-5 {
+        padding: 2.5rem!important;
+    }
+    .footer_email {
+        font-size: 1.1rem;
     }
 
 }
@@ -176,6 +186,9 @@
     }
     .blog_desc_img {
         height: 25.25rem;
+    }
+    .footer_email {
+        font-size: 1.2rem;
     }
 }
 
