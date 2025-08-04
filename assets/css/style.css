@@ -1020,6 +1020,10 @@ span.theme {
 .newsletter_btn::after ,.newsletter_btm_btn::after ,.hotels_last_sec .text_img_btn::after {
     background: #060606;
 }
+.home_search_accomo_text {
+    font-weight: 600;
+    line-height: 1.4;
+}
 /* News Letter CSS End */
 
 
